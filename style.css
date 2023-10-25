@@ -1,0 +1,12 @@
+body{
+    background-color: #2B2B2B;
+}
+#description{
+    color: white;
+}
+footer{
+    color: white;
+}
+footer>a{
+    color: aliceblue;
+}
