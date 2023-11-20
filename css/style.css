@@ -38,8 +38,6 @@ footer>a{
   }
   
   div.gallery:hover {
-
-    color: #FFFFFF;
     
   }
   
@@ -48,17 +46,17 @@ footer>a{
   }
   
   .responsive {
-    padding: 1px 6px;
+    padding: 0 6px;
     flex: 0 0 30%;
     box-sizing: border-box;
-    max-height: 250px;
+    max-height: 300px;
     overflow: hidden;
   }
   
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1200px) {
     .responsive {
       flex: 0 0 49.99999%;
-      margin: 2px 0;
+      margin: 6px 0;
     }
   }
   
@@ -70,25 +68,7 @@ footer>a{
     overflow: hidden;
   }
 
-  .gallery-main-page img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding-top: 3%;
-    overflow: hidden;
-    max-width: 600px;
-    max-height: 400px;
-  }
-
   .gallery{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .gallery-main-page{
     width: 100%;
     height: 100%;
     display: flex;
@@ -109,11 +89,13 @@ footer>a{
     display: none;
     position: absolute;
     left: -30px;
-    outline:0;
+     outline:0;
 }
 
 .box{
   border: 1px solid red;
   margin-left: 100px; 
-    position: relative;  
+    position: relative;
+  
 }
+
